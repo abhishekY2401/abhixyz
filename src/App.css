@@ -34,3 +34,26 @@ main {
 .circles-2 {
   transform: translate(30rem, 15vw);
 }
+
+.social-links {
+  width: 20%;
+  margin-top: 20vw;
+  margin-left: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.github, 
+.linkedin,
+.twitter {
+  margin-left: 40px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.linkedin:hover, 
+.twitter:hover {
+  color: rgb(32 135 242);
+}
+

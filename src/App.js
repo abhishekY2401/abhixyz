@@ -14,7 +14,20 @@ function App() {
       </main>
 
       <section>
-        <div className="social-links"></div>
+        <div className="social-links">
+          <a href="https://github.com/abhishekY2401/" className="github">
+            <i class="bi bi-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/abhishek-yadav-1a1808205/"
+            className="linkedin"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/AbhiY2852" className="twitter">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
       </section>
     </div>
   );
