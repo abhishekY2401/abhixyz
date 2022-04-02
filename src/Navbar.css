@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap');
+
+#logo {
+    width: 10%;
+    height: 3rem;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Anybody', cursive;
+    font-size: 1.15rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+
+.bi-briefcase,
+.bi-code-square,
+.bi-file-person,
+.bi-envelope {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;  
+}

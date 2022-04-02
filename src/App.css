@@ -1,38 +1,36 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.short-intro {
+  margin-top: 5%;
+  margin-left: 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.short-intro > p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  color: rgb(220, 220, 221, 0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.circles {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f65f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circles-1 {
+  transform: translate(25rem, 10vw);
+}
+
+.circles-2 {
+  transform: translate(30rem, 15vw);
 }
