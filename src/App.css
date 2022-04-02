@@ -24,21 +24,28 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #f65f;
+  border: 5px dashed #fff;
 }
 
 .circles-1 {
-  transform: translate(25rem, 10vw);
+  transform: translate(25rem, 15vw);
+  background-color: palegreen;
 }
 
 .circles-2 {
-  transform: translate(30rem, 15vw);
+  transform: translate(30rem, 20vw);
+  background-color: #f65f;
+}
+
+.circles-3 {
+  transform: translate(12rem, 5vw);
+  background-color: plum;
 }
 
 .social-links {
   width: 20%;
   margin-top: 20vw;
-  margin-left: 20rem;
+  margin-left: 15rem;
   display: flex;
   align-items: center;
 }
@@ -55,5 +62,12 @@ main {
 .linkedin:hover, 
 .twitter:hover {
   color: rgb(32 135 242);
+}
+
+.bi-arrow-right {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 40px;
 }
 

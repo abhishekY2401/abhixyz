@@ -11,6 +11,7 @@ function App() {
         </div>
         <div className="circles circles-1"></div>
         <div className="circles circles-2"></div>
+        <div className="circles circles-3"></div>
       </main>
 
       <section>
@@ -26,6 +27,9 @@ function App() {
           </a>
           <a href="https://twitter.com/AbhiY2852" className="twitter">
             <i class="bi bi-twitter"></i>
+          </a>
+          <a href="/">
+            <i class="bi bi-arrow-right"></i>
           </a>
         </div>
       </section>
