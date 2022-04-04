@@ -6,12 +6,20 @@ function App() {
     <div className="App">
       <Navbar />
       <main>
-        <div className="short-intro">
-          <p>Abhishek</p>
+        <div className="names">
+          <p id="name">Abhishek Yadav</p>
+          <h4>
+            Hey, there👋 I'm Abhishek Yadav - Aspiring Software and Product
+            Engineer
+            <br />
+            Currently, I am in second year of my university, pursuing Bachelors
+            of Engineering in IT.
+            <br />I have experience in building websites using different
+            technologies with Python and <br />
+            JavaScript libraries and MySQL database, having a main interest in
+            backend development.
+          </h4>
         </div>
-        <div className="circles circles-1"></div>
-        <div className="circles circles-2"></div>
-        <div className="circles circles-3"></div>
       </main>
 
       <section>

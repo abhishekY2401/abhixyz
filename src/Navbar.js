@@ -15,6 +15,10 @@ const Navbar = () => {
             <i class="bi bi-code-square"></i>
             <a href="/">Projects</a>
           </li>
+          <li className="blog">
+            <i class="bi bi-file-earmark"></i>
+            <a href="/">Blogs</a>
+          </li>
           <li className="about">
             <i class="bi bi-file-person"></i>
             <a href="/">About Me</a>

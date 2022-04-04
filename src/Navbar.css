@@ -35,6 +35,8 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #a5ffaa;
+    transition: 0.6s;
 }
 
 ul {
@@ -47,8 +49,9 @@ ul {
 .bi-briefcase,
 .bi-code-square,
 .bi-file-person,
-.bi-envelope {
+.bi-envelope, 
+.bi-file-earmark {
     color: #fff;
     font-size: 20px;
-    margin-left: 20px;  
+    margin-right: 12px;  
 }
