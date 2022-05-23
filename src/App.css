@@ -20,58 +20,32 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 4.5rem;
   color: rgb(220, 220, 221, 0.4);
+  border: 0.3rem solid #cececc;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.names > h4 {
+.names > p:hover {
+  box-shadow: 0px 2px 20px 5px #fff;
+}
+
+.about-me-card > h4 {
   font-size: 20px;
-  color: #cececc;
   font-family: 'Oxygen', sans-serif;
+  margin-top: 5rem;
+  background-color: #ffff;
+  color: #282828;
+  padding: 32px;
+  border-radius: 20px;
 }
 
 main {
   display: flex;
 }
 
-/* .circles {
-  display: none;
-  width: 500px;
-  height: 400px;
-  transform: translate(50%, 30%);
-  border: 5px dashed #fff;
-} */
-
-/* .circles-1 {
-  background-color: palegreen;
-}
-
-.circles-1:hover {
-  cursor: pointer;
-  box-shadow: 2px 2px 10px 10px palegreen;
-}
-
-.circles-2 {
-  transform: translate(30rem, 20vw);
-  background-color: #f65f;
-}
-
-.circles-2:hover {
-  cursor: pointer;
-  box-shadow: 2px 2px 10px 10px #f65f;
-}
-
-.circles-3 {
-  transform: translate(13rem, 5vw);
-  background-color: plum;
-}
-
-.circles-3:hover {
-  cursor: pointer;
-  box-shadow: 2px 2px 10px 10px plum;
-} */
-
 .social-links {
   width: 20%;
-  margin-top: 10vw;
+  margin-top: 5vw;
   margin-left: 8rem;
   display: flex;
   align-items: center;
@@ -93,8 +67,14 @@ main {
 
 .bi-arrow-right {
   color: #fff;
-  font-size: 1.2rem;
-  font-weight: 800;
-  padding: 40px;
+  font-size: 2rem;
+  font-weight: 1200;
+  margin-left: 4rem;
+  display: inline-block;
+  transition: all 0.4s ease;
+}
+
+.bi-arrow-right:hover {
+  transform: rotate(90deg);
 }
 

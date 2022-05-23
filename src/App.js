@@ -8,17 +8,19 @@ function App() {
       <main>
         <div className="names">
           <p id="name">Abhishek Yadav</p>
-          <h4>
-            Hey, there👋 I'm Abhishek Yadav - Aspiring Software and Product
-            Engineer
-            <br />
-            Currently, I am in second year of my university, pursuing Bachelors
-            of Engineering in IT.
-            <br />I have experience in building websites using different
-            technologies with Python and <br />
-            JavaScript libraries and MySQL database, having a main interest in
-            backend development.
-          </h4>
+          <div className="about-me-card">
+            <h4>
+              Hey, there 👋 I'm Abhishek Yadav - Aspiring Software and Product
+              Engineer
+              <br />
+              Currently, I am in second year of my university, pursuing
+              Bachelors of Engineering in IT.
+              <br />I have experience in building websites using different
+              technologies with Python and <br />
+              JavaScript libraries and MySQL database, having a main interest in
+              backend development.
+            </h4>
+          </div>
         </div>
       </main>
 
@@ -36,7 +38,7 @@ function App() {
           <a href="https://twitter.com/AbhiY2852" className="twitter">
             <i class="bi bi-twitter"></i>
           </a>
-          <a href="/">
+          <a href="/" className="arrow">
             <i class="bi bi-arrow-right"></i>
           </a>
         </div>
