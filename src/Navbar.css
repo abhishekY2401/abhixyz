@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-#logo {
-    width: 10%;
+#my-logo {
     height: 3rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 4px solid #a5ffaa;
+    border-radius: 4px;
 }
 
 .navbar {
@@ -29,7 +33,7 @@ li {
 a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Anybody', cursive;
+    font-family: 'Barlow', sans-serif;
     font-size: 1.15rem;
 }
 
