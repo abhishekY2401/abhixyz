@@ -1,10 +1,11 @@
 import "./Navbar.css";
-import { ReactComponent as Logo } from "./logo.svg";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Logo fill="#75ff54" stroke="#fff" id="logo" />
+      <div>
+        <h1 id="my-logo">Abhi. Y</h1>
+      </div>
       <nav>
         <ul>
           <li className="work">

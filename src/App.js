@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -7,19 +8,27 @@ function App() {
       <Navbar />
       <main>
         <div className="names">
-          <p id="name">Abhishek Yadav</p>
           <div className="about-me-card">
+            <h1>💻 About me</h1>
+            <div className="dash"></div>
             <h4>
-              Hey, there 👋 I'm Abhishek Yadav - Aspiring Software and Product
-              Engineer
+              Hey, there 👋 <br />
+              I'm Abhishek Yadav - Aspiring Software and Product Engineer
               <br />
-              Currently, I am in second year of my university, pursuing
+              Currently, I am in second year of my university, <br /> pursuing
               Bachelors of Engineering in IT.
               <br />I have experience in building websites using different
-              technologies with Python and <br />
-              JavaScript libraries and MySQL database, having a main interest in
-              backend development.
+              technologies <br />
+              with Python and JavaScript libraries and MySQL database, having{" "}
+              <br />a main interest in backend development.
             </h4>
+          </div>
+          <div className="view-work">
+            <h1>View my work</h1>
+            <br />
+            <a href="/">
+              <i class="bi bi-arrow-down-circle"></i>
+            </a>
           </div>
         </div>
       </main>
@@ -43,6 +52,8 @@ function App() {
           </a>
         </div>
       </section>
+
+      <Projects />
     </div>
   );
 }
