@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -28,48 +27,26 @@ body::-webkit-scrollbar-thumb {
 }
 
 .names {
-  margin-top: 5%;
   margin-left: 10%;
   display: flex;
 }
 
-.names > p {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 4.5rem;
-  color: rgba(195, 195, 197, 0.3);
-}
 
-.about-me-card > h1 {
-  text-align: left;
-}
-
-.view-work {
-  margin-top: 8.5rem;
-  height: 15rem;
-  border-radius: 20px;
-  margin-left: 6rem;
-  padding: 40px;
-  border: 4px solid rgb(64, 109, 207);
-}
-
-.dash {
-  height: 5px;
-  width: 4rem;
-  background-color: rgb(231, 78, 109);
-  margin-left: 3.25rem;
-  margin-top: 15px;
-  border-radius: 15px;
+.about-me-card > h4 > p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    border-bottom: 2px solid #fff;
+    color: #a680f1;
 }
 
 .about-me-card > h4 {
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-size: 1.15rem;
+  font-family: 'Oxygen', sans-serif;
   margin-top: 5rem;
-  background-color: #ffff;
-  color: #282828;
+  color: #e1e1e1;
   padding: 32px;
   border-radius: 20px;
-  letter-spacing: 0.12rem;
+  letter-spacing: 3px;
 }
 
 main {
@@ -79,66 +56,47 @@ main {
 .social-links {
   width: 20%;
   margin-top: 5vw;
-  margin-left: 8rem;
+  margin-left: 11rem;
   display: flex;
   align-items: center;
 }
 
 .github, 
 .linkedin,
-.twitter {
-  margin-left: 20px;
+.twitter,
+.hashnode {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
   padding: 10px;
   border: 2px solid #fff;
-  border-radius: 50%;
+  border-radius: 10px;
+  
 }
 
-.linkedin:hover, 
 .twitter:hover {
-  color: rgb(32 135 242);
+  color: rgb(92, 162, 237);
 }
 
-.bi-arrow-right {
+.linkedin:hover {
+  color: rgb(28, 102, 181);
+}
+
+.hashnode:hover {
+  color: #2962FF;
+}
+
+.footer {
+  display: flex;
   color: #fff;
-  font-size: 2rem;
-  font-weight: 1200;
-  margin-left: 4rem;
-  display: inline-block;
-  transition: all 0.4s ease;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  margin-bottom: 10px;
 }
 
-.bi-arrow-right:hover {
-  transform: rotate(90deg);
-}
-
-.bi-arrow-down-circle {
-  color: #ffffff;
-  font-size: 3rem;
-  margin-left: 4.8rem;
-}
-
-.bi-arrow-down-circle:hover {
-  cursor: pointer;
-}
-
-a:hover {
-  transition: godown 5s infinite;
-}
-
-@keyframes godown {
-  0% {
-    top: 0px;
-  }
-  25% {
-    top: 200px;
-  }
-  50% {
-    top: 100px;
-  }
-  75% {
-    top: 200px;
-  }
-  100% {
-    top: 0px;
-  }
+.footer > p {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
