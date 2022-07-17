@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #161d2c;
+  background-color: #394142;
+  box-sizing: border-box;
 }
 
 body {

@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #fff;
+    margin-left: 6rem;
+    height: 50px;  
+}
 
 #my-logo {
-    height: 3rem;
-    font-weight: 800;
-    margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
-    border-bottom: 4px solid #a5ffaa;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
     border-radius: 4px;
 }
 
@@ -24,23 +33,43 @@ nav {
 
 li {
     list-style: none;
-    margin-left: 4rem;
+    margin-left: 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 } 
 
 a {
+    position: relative;
     text-decoration: none;
     color: #fff;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.15rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.35rem;
+    letter-spacing: 1px;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #a5ffaa;
-    transition: 0.6s;
+#pro::before, 
+#blogs::before, 
+#me::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-radius: 15px;
+    top: -10px;
+    margin-left: -20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.053);
+    transition: 0.3s;
+}
+
+#pro:hover::before, 
+#blogs:hover::before, 
+#me:hover::before {
+    width: 120%;
+    height: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.053);
 }
 
 ul {
@@ -48,14 +77,4 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin-right: 4rem;
-}
-
-.bi-briefcase,
-.bi-code-square,
-.bi-file-person,
-.bi-envelope, 
-.bi-file-earmark {
-    color: #fff;
-    font-size: 20px;
-    margin-right: 12px;  
 }
