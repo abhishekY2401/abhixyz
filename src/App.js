@@ -1,7 +1,5 @@
 import "./App.css";
 import Navbar from "./Navbar";
-import Projects from "./Projects";
-import Hashnode from "./images/Hashnode";
 
 function App() {
   return (
