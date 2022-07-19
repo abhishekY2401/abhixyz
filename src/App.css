@@ -31,6 +31,22 @@ body::-webkit-scrollbar-thumb {
   display: flex;
 }
 
+.photo {
+  height: 300px;
+  width: 300px;
+  border: 2px solid #fff;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  border-radius: 50%;
+
+}
+
+#myphoto {
+  border-radius: 50%;
+  margin-left: 0.8vw;
+  margin-top: 1.5vh;
+}
+
 
 .about-me-card > h4 > p {
     font-family: 'Kanit', sans-serif;
@@ -53,38 +69,54 @@ main {
   display: flex;
 }
 
-.social-links {
-  width: 20%;
+.social-links ul {
+  position: absolute;
+  padding: 0;
+  margin: 0;
   margin-top: 5vw;
-  margin-left: 11rem;
   display: flex;
   align-items: center;
+  margin-left: 10vw;
+}
+
+.social-links ul li {
+  list-style: none;
+  margin: 0 15px;
 }
 
 .github, 
 .linkedin,
 .twitter,
 .hashnode {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  padding: 10px;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: #394142;
+  border-radius: 50%;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-.twitter:hover {
-  color: rgb(92, 162, 237);
+.fa, 
+.fa-brands {
+  font-size: 30px;
+  line-height: 56px;
+  transition: 0.6s;
+  color: #000;
 }
 
-.linkedin:hover {
-  color: rgb(28, 102, 181);
+.fa:hover, 
+.fa-brands:hover {
+  color: #fff;
 }
 
+.twitter:hover,
+.linkedin:hover,
+.github:hover,
 .hashnode:hover {
-  color: #2962FF;
+  transform: translate(0, -10px);
+  transition: 0.2s;
 }
 
 .footer {
@@ -92,7 +124,7 @@ main {
   color: #fff;
   justify-content: center;
   align-items: center;
-  margin-top: 7%;
+  margin-top: 14%;
   margin-bottom: 10px;
 }
 

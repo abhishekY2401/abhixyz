@@ -27,7 +27,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <Sunlight class="sun" />
+            <a href="/">
+              <Sunlight class="sun" />
+            </a>
           </li>
         </ul>
       </nav>
