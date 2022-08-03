@@ -1,5 +1,6 @@
 import "./Navbar.css";
-import Sunlight from "./images/Sunlight";
+import Sunlight from "../images/Sunlight";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Navbar = () => {
   return (

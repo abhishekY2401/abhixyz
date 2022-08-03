@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #dfdbdb;
+}
+
+.copyright {
+    margin-right: 50vw;
+}
