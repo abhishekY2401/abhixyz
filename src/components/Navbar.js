@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import Sunlight from "../images/Sunlight";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,19 +13,13 @@ const Navbar = () => {
       <nav>
         <ul>
           <li className="projects">
-            <a href="/" id="pro">
-              Projects
-            </a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li className="blog">
-            <a href="https://abhi2048.hashnode.dev/" id="blogs">
-              Blogs
-            </a>
+            <Link to="/blog">Blog</Link>
           </li>
           <li className="contact">
-            <a href="/" id="me">
-              Contact Me
-            </a>
+            <Link to="/contact-me">Contact me</Link>
           </li>
           <li>
             <a href="/">

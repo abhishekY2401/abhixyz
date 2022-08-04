@@ -1,13 +1,19 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Social from "./components/Social";
-import my_photo from "./images/abhi_photo.png";
+import developer from "./images/developer_building.webp";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Projects from "./components/Projects";
+import Blog from "./components/Blog";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Router>
+        <Navbar />
+      </Router>
+
       <main>
         <div className="names">
           <div className="about-me-card">
@@ -23,7 +29,8 @@ function App() {
             </h4>
           </div>
           <div className="photo">
-            <img src={my_photo} alt="abhishek" id="myphoto" />
+            <p id="headline">Always building & developing</p>
+            <img src={developer} alt="developer" id="my-photo" />
           </div>
         </div>
       </main>

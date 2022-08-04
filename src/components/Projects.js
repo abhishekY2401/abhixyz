@@ -1,9 +1,7 @@
-import Project from "./images/projects.svg";
-
 const Projects = () => {
   return (
     <div>
-      <img src={Project} alt="projects" />
+      <h1>My Creativity & Development</h1>
     </div>
   );
 };

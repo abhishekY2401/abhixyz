@@ -33,19 +33,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 .photo {
-  height: 300px;
-  width: 300px;
-  border: 2px solid #fff;
+  height: 400px;
+  width: 400px;
   margin-top: 5rem;
   margin-left: 8rem;
-  border-radius: 50%;
-
+  padding: 4px;
 }
 
-#myphoto {
-  border-radius: 50%;
-  margin-left: 0.8vw;
-  margin-top: 1.5vh;
+#headline {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(238, 238, 236);
+  text-decoration: underline;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#my-photo {
+  width: 100%;
+  mix-blend-mode: darken;
 }
 
 
