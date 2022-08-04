@@ -3,9 +3,7 @@ import Navbar from "./components/Navbar";
 import Social from "./components/Social";
 import developer from "./images/developer_building.webp";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Projects from "./components/Projects";
-import Blog from "./components/Blog";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
